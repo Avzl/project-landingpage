@@ -68,7 +68,7 @@ body {
 
 .main-text h1 {
     color: #F9FAF8;
-    font-weight: bolder;
+    font-weight: 1000;
     font-size: 48px;
     margin: 0;
 }
@@ -99,19 +99,50 @@ body {
 
 /* images */
 
-.images {
+.information {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: white;
+    padding-bottom: 120px;
+    
 }
 
+.information-header {
+    color: #1f291f;
+    font-size: 36px;
+    font-weight: 1000;
+    padding: 32px;
+    
+}
 .images-container {
     display: flex;
     justify-content: space-around;
-    gap: 48px;
+    gap: 60px;
     flex-wrap: wrap;
+}
+
+.image-placeholder{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 200px;
+    text-align: center;
+    
+}
+
+.image-placeholder img {
+    width: 200px;
+    height: 200px;
+    border: 4px solid #3882f6;
+    border-radius: 25px;
+}
+
+.image-placeholder p {
+    color: rgb(66, 66, 66);
+    font-size: 18px;
+    margin: 10px;
 }
 
 /* QUOTES */
