@@ -146,17 +146,29 @@ body {
 }
 
 /* QUOTES */
+.quote-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 150px;
+    background-color: #e5e7eb;
+}
 
 .quote {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: lightsteelblue;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: lighter;
+    max-width: 50vw;
 }
+
+
 .firma {
-    align-self: self-end;
-    margin-right: 150px;
+    text-align: end;
+    font-weight: bold;
+    margin: 0;
+    font-size: 28px;
 }
 
 /* SIGN UP */
