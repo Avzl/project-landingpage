@@ -97,6 +97,12 @@ body {
 
 }
 
+.image-title img {
+    height: 250px;
+    width: 550px;
+    border-radius: 12px;
+}
+
 /* images */
 
 .information {
